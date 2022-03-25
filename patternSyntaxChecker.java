@@ -13,7 +13,7 @@ public class patternSyntaxChecker {
               Pattern.compile(pattern);
               System.out.println("Valid");
               }
-              catch(PatternSyntaxException e){
+              catch(Exception e){
                   System.out.println("Invalid");
               }
             testCases--;  
